@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- link de bt -->
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- link de bt -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     
     
     <!-- link de mi css -->
@@ -16,114 +16,64 @@
 <body>
     <header id="arriba">
         <img src="../img/logo.png (3).png" alt="logo de la empresa">
-        <nav>
-         <ul>
-             <li> 
-                 <a href="../index.html"> Home </a>
-                 
+        <nav class="navbar navbar-expand-lg nav-color">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="../index.html"> Home </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="productos.html"> Productos </a>
                   </li>
-             <li> 
-                <a href="productos.html"> Productos </a>
-                
-                 </li>
-             <li>
-                <a href="sobremi.html"> Sobre mi </a>
-                 </li>
-             <li> 
-                <a href="contacto.html"> Contacto </a>
-                 
-            </li>
-            <li>
-                <a href="tutorial.html"> Tutorial </a>
-                </li>
-             </ul>
-           </nav>
-      
+                  <li class="nav-item">
+                    <a class="nav-link" href="sobremi.html"> Sobre mi </a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="contacto.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Contacto
+                    </a>
+                    <ul class="dropdown-menu ul-color">
+                      <li><a class="dropdown-item" href="https://www.instagram.com/grifeltbybian/"> Instagram </a></li>
+                      <li><a class="dropdown-item" href="https://api.whatsapp.com/send?phone=59898591551&text=Hola!%20Quisiera%20hacer%20un%20pedido"> WhatsApp </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="tutorial.html"> Tutorial </a>
+                  </li>
+                </ul>
+              
+              </div>
+            </div>
+          </nav>
  
  </header>
  
  <!-- contenido principal -->
  
- <main class="achicar">
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active d-item">
-            <img src="../img/almohadonflamenco.jpg" class="d-block w-100 d-img" alt="almohadon">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Almohadon
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-        </div>
-        <div class="carousel-item d-item">
-            <img src="../img/almohadonflamenco2.jpg" class="d-block w-100 d-img" alt="almohadon">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Almohadon
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-         
-         <div class="carousel-item d-item">
-            <img src="../img/atraparojo.jpg" class="d-block w-100 d-img" alt="Atrapasueño">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Atrapasueño
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-         <div class="carousel-item d-item">
-            <img src="../img/reno.jpg" class="d-block w-100 d-img" alt="Reno">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Adorno
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-         <div class="carousel-item d-item">
-            <img src="../img/muñecaconliston.jpg" class="d-block w-100 d-img" alt="Mueñeca">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Muñeca
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-         <div class="carousel-item d-item">
-            <img src="../img/brujitas.jpg" class="d-block w-100 d-img" alt="brujitas">
-         <div class="carousel-capiton top-0 mt-4">
-            <p class="mt-5 fs-3 text-uppercase">
-                Adornos
-            </p>
-                <h1 class="display-1 fw-bolder text-capitalize"></h1>
-                <button class="btn btn-primary px-4 py2 fs-5 mt-5"></button>
-                
-         </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+ <main>
+     <h1> ¡ Mis productos !</h1>
+     <div class="producto">
+       
+        <p style="color: green; font-size: 50px;">Representaciones de fieltro </p>
+        <img src="../img/spiderman.jpg" alt="spiderman de fieltro">
+        <img src="../img/nenita.jpg" alt="niña1 de fieltro">
+        <img src="../img/nenita2.jpg" alt="niña2 de fieltro">
+        
+       
+     </div>
+     <div class="producto">
+        
+        <p style="color: midnightblue; font-size: 50px;"> Atrapasueños </p>
+        <img src="../img/atrapasueño7.jpg" alt="atrapasueños rojo">
+        <img src="../img/atrapasueño8.jpg" alt="atrapasueños corazon">
+        <img src="../img/atrapasueños.jpg" alt="atrapasueños uncornio">
+        
+        
+
  
  </main>
  
@@ -131,13 +81,9 @@
  <footer>
      <h2> Todos los derechos reservados </h2>
  
-     <a href="https://www.instagram.com/grifeltbybian/" target="_blank"> Instagram </a>
- <a href="https://msng.link/o/?59898591551=wa" target="_blank"> WhatsApp </a>
-<!-- enlace interno -->
- <a href="#arriba">Volver arriba</a>
+    
  </footer>
     <!-- script -->
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
